@@ -1,5 +1,8 @@
+http://git.github.io/git-reference/
+
 git clone address
 git log
+git log -n1 (that's nONE btw, shows only the last commit/merge in the log)
 git diff id_old id_new
 git checkout id
 git checkout master
@@ -16,3 +19,18 @@ git commit (if the editor and other options are set up)
 
  git diff (compares Working directory to Staging area)
  git diff --staged (compares staging area to repository most recent commit)
+ 
+ git log --graph --oneline master_branch other_branch (replace with whatever)
+ git log --graph --oneline (can be used to see branches after merge)
+
+ git show commit_id (show diff between this newer commit id and its parent, without knowing the parent)
+ 
+ git merge branch_name (while being sure we're on checkout branch_to_be_merged_with)
+ git merge --abort (in case of errors while we merge, abort to fix errors)
+ git branch -d branch_name (delete only the label AFTER a merge, otherwise all the data will be lost)
+ git branch (view/create branches)
+ git remote
+ git remote add origin url
+ git remote -v (verbose - more information)
+ 
+ git push origin master (origin being the remote, master being the branch I want to push)
