@@ -13,3 +13,6 @@ git commit (if the editor and other options are set up)
  - in Cmder: git config --global core.editor "'C:\Program Files (x86)\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
  - git config --global user.email "you@example.com"
  - git config --global user.name "Your name"
+
+ git diff (compares Working directory to Staging area)
+ git diff --staged (compares staging area to repository most recent commit)

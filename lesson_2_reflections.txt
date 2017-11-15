@@ -6,3 +6,8 @@ How is the staging area different from the working directory and the repository?
 
 	The staging area is a step between the working directory and the repository. Its value is that you don't have to 
 	commit the entire working directory to the repository, and you can choose what goes into it.
+	
+How can you use the staging area to make sure you have one commit per logical change?
+
+	As soon as you believe that the change you made is complete, for example you finished fixing a bug, or added a 
+	good part of information, etc, you should probably commit the change.
