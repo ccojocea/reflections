@@ -1,0 +1,15 @@
+git clone address
+git log
+git diff id_old id_new
+git checkout id
+git checkout master
+
+git init
+git add file
+git reset file
+git status
+git commit -m "message"
+git commit (if the editor and other options are set up)
+ - in Cmder: git config --global core.editor "'C:\Program Files (x86)\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+ - git config --global user.email "you@example.com"
+ - git config --global user.name "Your name"
