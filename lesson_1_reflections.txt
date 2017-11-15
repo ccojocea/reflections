@@ -1,0 +1,44 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Viewing the differences by using an application dedicated to finding differences
+	makes the process significantly faster and efficient. Manually searching for differences
+	on big files would literally take ages.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    To be honest I'm not sure since I'm very new to programming and I don't really know what I might encounter.
+	However I might see that my application doesn't function as efficiently after multiple changes and I might want to
+	revert to previous versions.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Automatic saving has a lot of drawbacks, making a save when code makes no sense for example, 
+	but has some advantages as well, power failure life saving saves for example.
+	However manual saving has a lot more advantages, making logical saves, with comments attached to them
+	for easier understanding.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Some programming changes, even when trying to fix one single problem, they might span accross
+	multiple files, so Git has to allow multiple file saving in one commit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    You can use git log to see all the commits done to the project starting with the most recent ones.
+	You can use git diff to see the differences between 2 separate commits, by using git diff first_commit second_commit
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Well it's clear that if you use version control properly you can always revert to a previous version
+	if you make some changes (minor or major) and you break something. It also seem easier to find out 
+	where you introduced a bug.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Unfortunately I don't have a project of my own to try using Git for yet :)
