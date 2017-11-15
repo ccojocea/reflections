@@ -19,4 +19,13 @@ What are some situations when branches would be helpful in keeping your history 
 How do the diagrams help you visualize the branch structure?
 
 	Definitely easier to follow on a tree like structure diagram than just by running a git log.
+	
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
+	The result is a new branch containing changes made from both branches.
+	
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Always manually merging, even when we're talking about thousands of lines of code shouldn't even be considered in my opinion, 
+	as long as tools exist to automatically merge all the code that is safe to merge, only highlighting conflicts as explained in the lesson.
+	I don't know how fool proof the system is, but I believe the pros should outweight any cons in this case.
