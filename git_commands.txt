@@ -219,6 +219,7 @@ git pull origin master -> Local working directory, staging area and master branc
 git push origin master -> Github master branch updates
 merge alt_branch pull request -> Github master branch updates
 
+naming conventions: master origin(my repository/forked repository) upstream(original repository)
 
 git clone address
 git log
@@ -260,3 +261,21 @@ git commit (if the editor and other options are set up)
  
  git fetch origin - update all of the local copies of every branch for the origin remote
  git pull origin master = git fetch origin + git merge origin/master (while on master)
+ 
+ 
+ Since I can't finish the last task, as the collab bot is dead:
+ - Add the original repository as a remote in your clone
+	Get the url from GitHub
+	Git remote add upstream url
+ - pull the master branch from the original repository
+	Git checkout master
+	Git pull upstream master
+	Git log (to test)
+ - merge the master branch into your change branch
+	Git checkout change
+	Git merge master change
+	Git commit
+ - push your change branch to your fork
+	Git push origin change
+	Git checkout master
+	Git push origin master
