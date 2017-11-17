@@ -212,11 +212,18 @@ patch -p1 < file.patch
 
 
 =========================================================================================================================
+Edit file -> Local working directory updates
+git add edited_file -> Local staging area updates
+git commit -> Local master branch updates
+git pull origin master -> Local working directory, staging area and master branch update
+git push origin master -> Github master branch updates
+merge alt_branch pull request -> Github master branch updates
 
 
 git clone address
 git log
 git log -n1 (that's nONE btw, shows only the last commit/merge in the log)
+git log origin/master (won't show commits that are present locally but haven't been pushed to the remote)
 git diff id_old id_new
 git checkout id
 git checkout master
@@ -248,3 +255,8 @@ git commit (if the editor and other options are set up)
  git remote -v (verbose - more information)
  
  git push origin master (origin being the remote, master being the branch I want to push)
+ git push origin different-branch
+ git pull origin master
+ 
+ git fetch origin - update all of the local copies of every branch for the origin remote
+ git pull origin master = git fetch origin + git merge origin/master (while on master)
